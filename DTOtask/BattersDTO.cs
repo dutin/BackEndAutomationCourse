@@ -8,6 +8,5 @@ namespace DTOtask
     {
         public List<SweetBattersDTO> sweetBatters { get; set; }
         public List<SaltyBattersDTO> saltyBatters { get; set; }
-        public List<ToppingsDTO> toppings { get; set; }
     }
 }
