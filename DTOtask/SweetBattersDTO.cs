@@ -4,9 +4,7 @@ using System.Text;
 
 namespace DTOtask
 {
-    class SweetBattersDTO
+    class SweetBattersDTO: ItemsDTO
     {
-        public int id { get; set; }
-        public string type { get; set; }
     }
 }
