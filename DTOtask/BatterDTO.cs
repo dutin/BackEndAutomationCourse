@@ -4,14 +4,15 @@ using System.Text;
 
 namespace DTOtask
 {
-    class BattersDTO
-    {
+    class BatterDTO
+    {       
+
         public List<SweetBattersDTO> sweetBatters { get; set; }
         public List<SaltyBattersDTO> saltyBatters { get; set; }
 
         public override bool Equals(object obj)
         {
-            return obj is BattersDTO dTO &&
+            return obj is BatterDTO dTO &&
                    EqualityComparer<List<SweetBattersDTO>>.Default.Equals(sweetBatters, dTO.sweetBatters) &&
                    EqualityComparer<List<SaltyBattersDTO>>.Default.Equals(saltyBatters, dTO.saltyBatters);
         }
