@@ -4,9 +4,8 @@ using System.Text;
 
 namespace DTOtask
 {
-    class BakeryDTO
+    class ItemsFactory
     {
-
-        public List<ItemsDTO> items;
+        
     }
 }
